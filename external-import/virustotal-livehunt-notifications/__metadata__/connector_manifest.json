@@ -1,13 +1,13 @@
 {
   "title": "VirusTotal Livehunt Notifications",
   "slug": "virustotal-livehunt-notifications",
-  "description": "Information coming soon",
-  "short_description": "Information coming soon",
+  "description": "This connector automatically imports notifications from VirusTotal Livehunt. It retrieves matched files, extracts their metadata, and creates corresponding indicators and observables in OpenCTI. It also supports the extraction of malware configurations (C2 infrastructure) and the upload of files as artifacts.",
+  "short_description": "Import of VirusTotal Livehunt notifications and associated observables.",
   "logo": "external-import/virustotal-livehunt-notifications/__metadata__/logo.png",
   "use_cases": [
     "Threat Intelligence"
   ],
-  "verified": true,
+  "verified": false,
   "last_verified_date": null,
   "playbook_supported": false,
   "max_confidence_level": 50,
